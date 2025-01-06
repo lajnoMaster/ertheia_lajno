@@ -7,8 +7,8 @@
 			<sp amount="4250000" type="CHANGE" />
 		</sps>
 		<chances>
-			<chance value="90" type="NORMAL" />
-			<chance value="90" type="BLESSED" />
+			<chance value="100" type="NORMAL" />
+			<chance value="100" type="BLESSED" />
 		</chances>
 		<items>
 			<item id="30297" count="1" type="NORMAL" /> <!-- Superior Giant's Codex -->
@@ -27,8 +27,8 @@
 			<sp amount="4550000" type="CHANGE" />
 		</sps>
 		<chances>
-			<chance value="87" type="NORMAL" />
-			<chance value="87" type="BLESSED" />
+			<chance value="100" type="NORMAL" />
+			<chance value="100" type="BLESSED" />
 		</chances>
 		<items>
 			<item id="30297" count="1" type="NORMAL" /> <!-- Superior Giant's Codex -->
@@ -47,8 +47,8 @@
 			<sp amount="4850000" type="CHANGE" />
 		</sps>
 		<chances>
-			<chance value="84" type="NORMAL" />
-			<chance value="84" type="BLESSED" />
+			<chance value="100" type="NORMAL" />
+			<chance value="100" type="BLESSED" />
 		</chances>
 		<items>
 			<item id="30297" count="1" type="NORMAL" /> <!-- Superior Giant's Codex -->
@@ -67,8 +67,8 @@
 			<sp amount="5170000" type="CHANGE" />
 		</sps>
 		<chances>
-			<chance value="81" type="NORMAL" />
-			<chance value="81" type="BLESSED" />
+			<chance value="100" type="NORMAL" />
+			<chance value="100" type="BLESSED" />
 		</chances>
 		<items>
 			<item id="30297" count="1" type="NORMAL" /> <!-- Superior Giant's Codex -->
@@ -87,8 +87,8 @@
 			<sp amount="5420000" type="CHANGE" />
 		</sps>
 		<chances>
-			<chance value="78" type="NORMAL" />
-			<chance value="78" type="BLESSED" />
+			<chance value="100" type="NORMAL" />
+			<chance value="100" type="BLESSED" />
 		</chances>
 		<items>
 			<item id="30297" count="1" type="NORMAL" /> <!-- Superior Giant's Codex -->
@@ -107,8 +107,8 @@
 			<sp amount="5880000" type="CHANGE" />
 		</sps>
 		<chances>
-			<chance value="75" type="NORMAL" />
-			<chance value="75" type="BLESSED" />
+			<chance value="100" type="NORMAL" />
+			<chance value="100" type="BLESSED" />
 		</chances>
 		<items>
 			<item id="30297" count="1" type="NORMAL" /> <!-- Superior Giant's Codex -->
@@ -127,8 +127,8 @@
 			<sp amount="6550000" type="CHANGE" />
 		</sps>
 		<chances>
-			<chance value="72" type="NORMAL" />
-			<chance value="72" type="BLESSED" />
+			<chance value="100" type="NORMAL" />
+			<chance value="100" type="BLESSED" />
 		</chances>
 		<items>
 			<item id="30297" count="1" type="NORMAL" /> <!-- Superior Giant's Codex -->
@@ -147,8 +147,8 @@
 			<sp amount="13340000" type="CHANGE" />
 		</sps>
 		<chances>
-			<chance value="68" type="NORMAL" />
-			<chance value="68" type="BLESSED" />
+			<chance value="100" type="NORMAL" />
+			<chance value="100" type="BLESSED" />
 		</chances>
 		<items>
 			<item id="30297" count="1" type="NORMAL" /> <!-- Superior Giant's Codex -->
@@ -167,8 +167,8 @@
 			<sp amount="18580000" type="CHANGE" />
 		</sps>
 		<chances>
-			<chance value="64" type="NORMAL" />
-			<chance value="64" type="BLESSED" />
+			<chance value="100" type="NORMAL" />
+			<chance value="100" type="BLESSED" />
 		</chances>
 		<items>
 			<item id="30297" count="1" type="NORMAL" /> <!-- Superior Giant's Codex -->
@@ -187,8 +187,8 @@
 			<sp amount="36370000" type="CHANGE" />
 		</sps>
 		<chances>
-			<chance value="60" type="NORMAL" />
-			<chance value="60" type="BLESSED" />
+			<chance value="100" type="NORMAL" />
+			<chance value="100" type="BLESSED" />
 		</chances>
 		<items>
 			<item id="30297" count="1" type="NORMAL" /> <!-- Superior Giant's Codex -->
