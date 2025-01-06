@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="16_25">
+		<group>
+			<npc id="32327" x="-114385" y="260121" z="-1207" heading="16944" respawnTime="60sec" /> <!-- Adventurers' Guide - Newbie Buff Manager -->
+		</group>
+	</spawn>
+</list>

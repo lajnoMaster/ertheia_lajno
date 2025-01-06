@@ -1,0 +1,606 @@
+2025.01.06 13:54:13,810	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml doesn't exist using automatic configuration...
+2025.01.06 13:54:13,996	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+2025.01.06 13:54:13,999	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 192.168.1.0/24 address: 192.168.1.55
+2025.01.06 13:54:13,999	INFO	1	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 0.0.0.0/0 address: 79.184.244.201
+2025.01.06 13:54:14,166	INFO	1	org.l2jmobius.Config	Loaded 6 Filter Words.
+2025.01.06 13:54:14,369	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Database ]
+2025.01.06 13:54:14,553	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: HikariCP pool initialized successfully.
+2025.01.06 13:54:14,709	INFO	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized with a valid connection.
+2025.01.06 13:54:14,717	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ ThreadPool ]
+2025.01.06 13:54:14,719	INFO	1	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
+2025.01.06 13:54:14,720	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 4 high priority threads.
+2025.01.06 13:54:14,723	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 16 total threads.
+2025.01.06 13:54:14,724	INFO	1	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 8 total threads.
+2025.01.06 13:54:14,726	INFO	1	org.l2jmobius.gameserver.GameServer	-----------------------------------------------=[ IdManager ]
+2025.01.06 13:54:14,737	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	Updated characters online status.
+2025.01.06 13:54:14,814	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 elements from database in 0 seconds.
+2025.01.06 13:54:14,823	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 expired timestamps from database.
+2025.01.06 13:54:14,836	INFO	1	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: 102912 id's available.
+2025.01.06 13:54:14,836	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------=[ Scripting Engine ]
+2025.01.06 13:54:15,372	INFO	1	org.l2jmobius.gameserver.scripting.ScriptEngineManager	Loaded 784 files to exclude.
+2025.01.06 13:54:15,373	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ World ]
+2025.01.06 13:54:15,605	INFO	1	org.l2jmobius.gameserver.instancemanager.MapRegionManager	MapRegionManager: Loaded 59 map regions.
+2025.01.06 13:54:15,614	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager 19 by 18 Zone Region Grid set up.
+2025.01.06 13:54:16,077	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Loaded 32 zone classes and 2851 zones.
+2025.01.06 13:54:16,080	INFO	1	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Last static id 200224.
+2025.01.06 13:54:16,426	INFO	1	org.l2jmobius.gameserver.data.xml.DoorData	DoorData: Loaded 1448 doors.
+2025.01.06 13:54:16,436	INFO	1	FenceData	FenceData: Loaded 1 fences.
+2025.01.06 13:54:16,447	INFO	1	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Loaded 11 variables.
+2025.01.06 13:54:16,447	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ Data ]
+2025.01.06 13:54:16,464	INFO	1	org.l2jmobius.gameserver.data.xml.ActionData	ActionData: Loaded 246 player actions.
+2025.01.06 13:54:16,524	INFO	1	org.l2jmobius.gameserver.data.xml.CategoryData	CategoryData: Loaded 215 categories.
+2025.01.06 13:54:16,530	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Could not parse file: DynamicExpRates.xml
+2025.01.06 13:54:16,560	INFO	1	org.l2jmobius.gameserver.data.xml.SecondaryAuthData	SecondaryAuthData: Loaded 328 forbidden passwords.
+2025.01.06 13:54:16,572	INFO	1	org.l2jmobius.gameserver.data.xml.AbilityPointsData	AbilityPointsData: Loaded 4 range fees.
+2025.01.06 13:54:16,630	WARNING	1	org.l2jmobius.gameserver.data.xml.ItemData	Dir D:\Ertheia\game\data\stats\items\custom does not exist.
+2025.01.06 13:54:18,732	INFO	1	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Highest item id used: 45577
+2025.01.06 13:54:18,739	INFO	1	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 19123 Etc Items
+2025.01.06 13:54:18,739	INFO	1	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 8921 Armor Items
+2025.01.06 13:54:18,740	INFO	1	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 8328 Weapon Items
+2025.01.06 13:54:18,740	INFO	1	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 36372 Items in total.
+2025.01.06 13:54:18,745	INFO	1	org.l2jmobius.gameserver.data.xml.CombinationItemsData	CombinationItemsData: Loaded 620 combinations.
+2025.01.06 13:54:18,768	INFO	1	org.l2jmobius.gameserver.data.xml.SayuneData	SayuneData: Loaded 67 maps.
+2025.01.06 13:54:18,815	INFO	1	org.l2jmobius.gameserver.data.xml.ClanRewardData	ClanRewardData: Loaded 4 rewards for members online.
+2025.01.06 13:54:18,815	INFO	1	org.l2jmobius.gameserver.data.xml.ClanRewardData	ClanRewardData: Loaded 4 rewards for hunting monsters.
+2025.01.06 13:54:18,816	INFO	1	org.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Skills ]
+2025.01.06 13:54:22,874	INFO	1	handlers.EffectMasterHandler	EffectMasterHandler: Loaded 368 effect handlers.
+2025.01.06 13:54:22,901	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantSkillGroupsData	EnchantSkillGroupsData: Loaded 10 enchant routes, max enchant set to 10.
+2025.01.06 13:54:26,351	INFO	1	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Loaded 122381 Skills.
+2025.01.06 13:54:26,972	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 23198 Class skills for 145 class skill trees.
+2025.01.06 13:54:26,973	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 24 sub-class skills.
+2025.01.06 13:54:26,974	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 38 dual-class skills.
+2025.01.06 13:54:26,975	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 104 transfer skills for 3 transfer skill trees.
+2025.01.06 13:54:26,976	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 17 race skills for 7 race skill trees.
+2025.01.06 13:54:26,976	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 35 fishing skills, 8 Dwarven only fishing skills.
+2025.01.06 13:54:26,977	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 3 collect skills.
+2025.01.06 13:54:26,983	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 171 clan skills, 141 for clan and 30 residential.
+2025.01.06 13:54:26,984	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 18 sub-pledge skills.
+2025.01.06 13:54:26,984	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 32 transform skills.
+2025.01.06 13:54:26,984	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 8 noble skills.
+2025.01.06 13:54:26,984	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 5 hero skills.
+2025.01.06 13:54:26,984	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 61 game master skills.
+2025.01.06 13:54:26,984	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 61 game master aura skills.
+2025.01.06 13:54:26,985	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 101 ability skills.
+2025.01.06 13:54:26,985	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 104 alchemy skills.
+2025.01.06 13:54:26,985	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 36 class awaken save skills.
+2025.01.06 13:54:26,986	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 20 Revelation skills.
+2025.01.06 13:54:26,986	INFO	1	org.l2jmobius.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 27 common skills.
+2025.01.06 13:54:27,009	INFO	1	org.l2jmobius.gameserver.data.xml.PetSkillData	PetSkillData: Loaded 1046 skills.
+2025.01.06 13:54:27,009	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Items ]
+2025.01.06 13:54:27,091	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Loaded 4 item group templates.
+2025.01.06 13:54:27,092	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Loaded 1 scroll group templates.
+2025.01.06 13:54:27,116	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemData	EnchantItemData: Loaded 243 enchant scrolls.
+2025.01.06 13:54:27,119	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemData	EnchantItemData: Loaded 97 support items.
+2025.01.06 13:54:28,248	INFO	1	org.l2jmobius.gameserver.data.xml.OptionData	OptionData: Loaded 30408 options.
+2025.01.06 13:54:28,262	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemOptionsData	EnchantItemOptionsData: Loaded 33 items and 1217 options.
+2025.01.06 13:54:28,279	INFO	1	org.l2jmobius.commons.util.IXmlReader	ElementalAttributeData: Loaded 138 elemental attribute items.
+2025.01.06 13:54:28,309	INFO	1	org.l2jmobius.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Loaded 12 crystallization templates.
+2025.01.06 13:54:28,309	INFO	1	org.l2jmobius.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Loaded 279 pre-defined crystallizable items.
+2025.01.06 13:54:28,333	INFO	1	org.l2jmobius.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Generated 5205 crystallizable items from templates.
+2025.01.06 13:54:28,423	INFO	1	VariationData	VariationData: Loaded 106 variations.
+2025.01.06 13:54:28,423	INFO	1	VariationData	VariationData: Loaded 4660 fees.
+2025.01.06 13:54:28,438	INFO	1	org.l2jmobius.gameserver.data.xml.EnchantItemHPBonusData	EnchantItemHPBonusData: Loaded 11 enchant HP bonuses.
+2025.01.06 13:54:30,107	INFO	1	org.l2jmobius.gameserver.data.xml.BuyListData	BuyListData: Loaded 879 buyLists.
+2025.01.06 13:54:31,204	INFO	1	org.l2jmobius.gameserver.data.xml.MultisellData	MultisellData: Loaded 369 multisell lists.
+2025.01.06 13:54:31,282	INFO	1	org.l2jmobius.gameserver.data.xml.RecipeData	RecipeData: Loaded 1601 recipes.
+2025.01.06 13:54:31,327	INFO	1	org.l2jmobius.gameserver.data.xml.ArmorSetData	ArmorSetData: Loaded 282 armor sets.
+2025.01.06 13:54:31,345	INFO	1	org.l2jmobius.gameserver.data.xml.FishingData	FishingData: Loaded 2 bait and 2 rod data.
+2025.01.06 13:54:31,403	INFO	1	org.l2jmobius.gameserver.data.xml.HennaData	HennaData: Loaded 460 henna data.
+2025.01.06 13:54:31,428	INFO	1	org.l2jmobius.gameserver.data.xml.PrimeShopData	PrimeShopData: Loaded 179 items.
+2025.01.06 13:54:31,463	INFO	1	org.l2jmobius.gameserver.data.xml.AppearanceItemData	AppearanceItemData: Loaded 1025 stones.
+2025.01.06 13:54:31,484	INFO	1	org.l2jmobius.gameserver.data.xml.AlchemyData	AlchemyData: Loaded 118 alchemy craft skills.
+2025.01.06 13:54:31,511	INFO	1	org.l2jmobius.commons.util.IXmlReader	LuckyGameData: Loaded 2 lucky game data.
+2025.01.06 13:54:31,511	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ Characters ]
+2025.01.06 13:54:31,525	INFO	1	org.l2jmobius.gameserver.data.xml.ClassListData	ClassListData: Loaded 153 class data.
+2025.01.06 13:54:31,539	INFO	1	org.l2jmobius.gameserver.data.xml.InitialEquipmentData	InitialEquipmentData: Loaded 13 initial equipment data.
+2025.01.06 13:54:31,553	INFO	1	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 5 initial global shortcuts data.
+2025.01.06 13:54:31,554	INFO	1	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 5 initial shortcuts data.
+2025.01.06 13:54:31,554	INFO	1	org.l2jmobius.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 0 macro presets.
+2025.01.06 13:54:31,567	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Loaded 100 levels.
+2025.01.06 13:54:31,568	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Player Level is 99.
+2025.01.06 13:54:31,568	INFO	1	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Pet Level is 99.
+2025.01.06 13:54:31,589	INFO	1	org.l2jmobius.gameserver.data.xml.KarmaData	KarmaData: Loaded 99 karma modifiers.
+2025.01.06 13:54:31,601	INFO	1	org.l2jmobius.gameserver.data.xml.HitConditionBonusData	HitConditionBonusData: Loaded hit condition bonuses.
+2025.01.06 13:54:32,164	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 145 character templates.
+2025.01.06 13:54:32,164	INFO	1	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 86130 level up gain records.
+2025.01.06 13:54:32,169	INFO	1	org.l2jmobius.gameserver.data.sql.CharInfoTable	CharInfoTable: Loaded 1 char names.
+2025.01.06 13:54:32,186	INFO	1	org.l2jmobius.gameserver.data.xml.AdminData	AdminData: Loaded 10 access levels.
+2025.01.06 13:54:32,201	INFO	1	org.l2jmobius.gameserver.data.xml.AdminData	AdminData: Loaded 463 access commands.
+2025.01.06 13:54:32,686	INFO	1	org.l2jmobius.gameserver.data.xml.PetDataTable	PetDataTable: Loaded 56 pets.
+2025.01.06 13:54:32,761	INFO	1	org.l2jmobius.gameserver.data.xml.CubicData	CubicData: Loaded 21 cubics.
+2025.01.06 13:54:32,791	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Clans ]
+2025.01.06 13:54:32,814	INFO	1	org.l2jmobius.gameserver.communitybbs.Manager.ForumsBBSManager	ForumsBBSManager: Loaded 4 forums. Last forum id used: 4
+2025.01.06 13:54:32,816	INFO	1	org.l2jmobius.gameserver.data.sql.ClanTable	ClanTable: Restored 0 clans from the database.
+2025.01.06 13:54:32,836	INFO	1	org.l2jmobius.gameserver.data.xml.ResidenceFunctionsData	ResidenceFunctionsData: Loaded 8 functions.
+2025.01.06 13:54:33,036	INFO	1	org.l2jmobius.gameserver.data.xml.ClanHallData	ClanHallData: Succesfully loaded 57 clan halls.
+2025.01.06 13:54:33,039	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanHallAuctionManager	ClanHallAuctionManager: Clan Hall Auction has started!
+2025.01.06 13:54:33,069	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanEntryManager	ClanEntryManager: Loaded 0 clan entries.
+2025.01.06 13:54:33,071	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanEntryManager	ClanEntryManager: Loaded 0 players in waiting list.
+2025.01.06 13:54:33,073	INFO	1	org.l2jmobius.gameserver.instancemanager.ClanEntryManager	ClanEntryManager: Loaded 0 player applications.
+2025.01.06 13:54:33,074	INFO	1	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Geodata ]
+2025.01.06 13:54:33,093	INFO	1	org.l2jmobius.gameserver.geoengine.GeoEngine	GeoEngine: Loaded 0 regions.
+2025.01.06 13:54:33,094	INFO	1	org.l2jmobius.gameserver.geoengine.GeoEngine	GeoEngine: Pathfinding is disabled.
+2025.01.06 13:54:33,094	INFO	1	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ NPCs ]
+2025.01.06 13:54:36,007	INFO	1	org.l2jmobius.gameserver.data.xml.NpcData	NpcData: Loaded 13561 NPCs.
+2025.01.06 13:54:36,043	INFO	1	org.l2jmobius.gameserver.data.xml.NpcData	NpcData: Loaded 27 custom NPCs.
+2025.01.06 13:54:36,066	INFO	1	org.l2jmobius.gameserver.data.xml.LevelUpCrystalData	Soul crystal data : Loaded 54
+2025.01.06 13:54:36,066	INFO	1	org.l2jmobius.gameserver.data.xml.LevelUpCrystalData	Npc leveling crystal data : Loaded 230
+2025.01.06 13:54:36,092	INFO	1	org.l2jmobius.gameserver.data.xml.FakePlayerData	FakePlayerData: Loaded 10 templates.
+2025.01.06 13:54:36,106	INFO	1	org.l2jmobius.gameserver.instancemanager.FakePlayerChatManager	FakePlayerChatManager: Loaded 19 chat templates.
+2025.01.06 13:54:37,794	INFO	1	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: Loaded 42594 spawns
+2025.01.06 13:54:38,097	INFO	1	org.l2jmobius.gameserver.instancemanager.WalkingManager	WalkingManager: Loaded 194 walking routes.
+2025.01.06 13:54:38,410	INFO	1	org.l2jmobius.gameserver.data.xml.StaticObjectData	StaticObjectData: Loaded 51 static object templates.
+2025.01.06 13:54:38,467	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 23 item(s) and registered 1 auction(s) for instance 32320
+2025.01.06 13:54:38,473	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 1 on 17:00:00 10.01.25 for instance 32320
+2025.01.06 13:54:38,514	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 23 item(s) and registered 1 auction(s) for instance 32321
+2025.01.06 13:54:38,514	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 2 on 17:00:00 06.01.25 for instance 32321
+2025.01.06 13:54:38,522	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 23 item(s) and registered 1 auction(s) for instance 32322
+2025.01.06 13:54:38,522	INFO	1	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 3 on 17:00:00 08.01.25 for instance 32322
+2025.01.06 13:54:38,523	INFO	1	org.l2jmobius.gameserver.instancemanager.ItemAuctionManager	ItemAuctionManager: Loaded 3 instances.
+2025.01.06 13:54:38,616	INFO	1	org.l2jmobius.gameserver.instancemanager.CastleManager	CastleManager: Loaded 9 castles.
+2025.01.06 13:54:38,631	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Lilith(25283) status is 0
+2025.01.06 13:54:38,631	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Anakim(25286) status is 0
+2025.01.06 13:54:38,631	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Queen Ant(29001) status is 0
+2025.01.06 13:54:38,631	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Core(29006) status is 0
+2025.01.06 13:54:38,632	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Orfen(29014) status is 0
+2025.01.06 13:54:38,632	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Baium(29020) status is 0
+2025.01.06 13:54:38,632	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Valakas(29028) status is 0
+2025.01.06 13:54:38,632	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29068) status is 0
+2025.01.06 13:54:38,632	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Beleth(29118) status is 0
+2025.01.06 13:54:38,633	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Earth Wyrm Trasken(29197) status is 0
+2025.01.06 13:54:38,633	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Lindvior(29240) status is 0
+2025.01.06 13:54:38,633	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Loaded 11 instances.
+2025.01.06 13:54:38,636	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Instance ]
+2025.01.06 13:54:38,654	INFO	1	org.l2jmobius.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded 258 instance names.
+2025.01.06 13:54:39,719	INFO	1	org.l2jmobius.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded 156 instance templates.
+2025.01.06 13:54:39,721	INFO	1	org.l2jmobius.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded instance reenter times for 0 players.
+2025.01.06 13:54:39,721	INFO	1	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Olympiad ]
+2025.01.06 13:54:39,744	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loading....
+2025.01.06 13:54:39,745	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
+2025.01.06 13:54:39,747	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: 25 days, 22 hours and 5 mins until period ends.
+2025.01.06 13:54:39,747	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Next weekly change is in 5 days, 9 hours and 22 mins.
+2025.01.06 13:54:39,748	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loaded 0 Nobles
+2025.01.06 13:54:39,754	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Competition Period Starts in 0 days, 4 hours and 6 mins.
+2025.01.06 13:54:39,778	INFO	1	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Event starts/started: Mon Jan 06 18:00:39 CET 2025
+2025.01.06 13:54:39,789	INFO	1	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 Heroes.
+2025.01.06 13:54:39,789	INFO	1	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 all time Heroes.
+2025.01.06 13:54:39,790	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Cache ]
+2025.01.06 13:54:39,793	INFO	1	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: Running lazy cache.
+2025.01.06 13:54:39,800	INFO	1	org.l2jmobius.gameserver.data.sql.CrestTable	CrestTable: Loaded 0 Crests.
+2025.01.06 13:54:44,245	INFO	1	org.l2jmobius.gameserver.data.xml.TeleporterData	TeleporterData: Loaded 171 npc teleporters.
+2025.01.06 13:54:44,270	INFO	1	org.l2jmobius.gameserver.instancemanager.CursedWeaponsManager	CursedWeaponsManager: Loaded 2 cursed weapons.
+2025.01.06 13:54:44,999	INFO	1	org.l2jmobius.gameserver.data.xml.TransformData	TransformData: Loaded 166 transform templates.
+2025.01.06 13:54:45,022	INFO	1	org.l2jmobius.gameserver.data.BotReportTable	BotReportTable: Loaded 0 bot reports
+2025.01.06 13:54:45,023	INFO	1	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Scripts ]
+2025.01.06 13:54:45,035	INFO	1	org.l2jmobius.gameserver.instancemanager.AirShipManager	AirShipManager: Loaded 0 private airships
+2025.01.06 13:54:45,061	INFO	1	org.l2jmobius.gameserver.data.xml.ShuttleData	ShuttleData: Loaded 3 shuttles.
+2025.01.06 13:54:45,062	INFO	1	org.l2jmobius.gameserver.GameServer	GameServer: Loading server scripts:
+2025.01.06 13:54:47,636	INFO	1	handlers.MasterHandler	Loading Handlers...
+2025.01.06 13:54:47,728	INFO	1	handlers.MasterHandler	ActionHandler: Loaded 10 handlers.
+2025.01.06 13:54:47,729	INFO	1	handlers.MasterHandler	ActionShiftHandler: Loaded 6 handlers.
+2025.01.06 13:54:47,729	INFO	1	handlers.MasterHandler	AdminCommandHandler: Loaded 455 handlers.
+2025.01.06 13:54:47,731	INFO	1	handlers.MasterHandler	BypassHandler: Loaded 27 handlers.
+2025.01.06 13:54:47,733	INFO	1	handlers.MasterHandler	ChatHandler: Loaded 14 handlers.
+2025.01.06 13:54:47,734	INFO	1	handlers.MasterHandler	CommunityBoardHandler: Loaded 22 handlers.
+2025.01.06 13:54:47,735	INFO	1	handlers.MasterHandler	ItemHandler: Loaded 31 handlers.
+2025.01.06 13:54:47,735	INFO	1	handlers.MasterHandler	PunishmentHandler: Loaded 3 handlers.
+2025.01.06 13:54:47,735	INFO	1	handlers.MasterHandler	UserCommandHandler: Loaded 16 handlers.
+2025.01.06 13:54:47,738	INFO	1	handlers.MasterHandler	VoicedCommandHandler: Loaded 15 handlers.
+2025.01.06 13:54:47,739	INFO	1	handlers.MasterHandler	TargetHandler: Loaded 21 handlers.
+2025.01.06 13:54:47,740	INFO	1	handlers.MasterHandler	AffectObjectHandler: Loaded 11 handlers.
+2025.01.06 13:54:47,740	INFO	1	handlers.MasterHandler	AffectScopeHandler: Loaded 19 handlers.
+2025.01.06 13:54:47,740	INFO	1	handlers.MasterHandler	PlayerActionHandler: Loaded 24 handlers.
+2025.01.06 13:54:47,740	INFO	1	handlers.MasterHandler	Handlers Loaded...
+2025.01.06 13:54:54,723	WARNING	30	org.l2jmobius.gameserver.Shutdown	Server scheduled restart issued shutdown command. Shutdown in 1 seconds!
+2025.01.06 13:54:54,784	INFO	1	ai.areas.FantasyIsle.HandysBlockCheckerEvent	Handy's Block Checker Event is enabled
+2025.01.06 13:54:54,796	INFO	1	ai.areas.FantasyIsle.Parade	Fantasy Isle: Parade starting at 2025/01/06 17:20 and is scheduled each next 1 hours.
+2025.01.06 13:54:54,808	INFO	1	ai.areas.FantasyIsle.TalentShow	Fantasy Isle: MC show script starting at 06/01/2025 22:55:54 and is scheduled each next 4 hours.
+2025.01.06 13:54:54,900	INFO	1	ai.areas.ImperialTomb.FourSepulchers.FourSepulchers	[Four Sepulchers] Loaded 762 spawn zones data.
+2025.01.06 13:54:55,163	INFO	1	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Updated Lindvior(29240) status to 0.
+2025.01.06 13:54:55,226	INFO	1	ai.bosses.Tiat.Stage1	[Seed of Destruction] Loaded 51 spawn zones data.
+2025.01.06 13:54:55,274	INFO	1	ai.others.ClassMaster.ClassMaster	ClassMaster: Loaded 0 class change options.
+2025.01.06 13:54:55,398	WARNING	1	org.l2jmobius.commons.util.IXmlReader	Could not parse file: MentorCoins.xml at line: 15, column: 37 :
+2025.01.06 13:54:55,401	INFO	1	ai.others.MentorGuide.MentorGuide	MentorGuide: Loaded 0 mentee coins
+2025.01.06 13:54:55,427	INFO	1	ai.others.NpcBuffers.NpcBuffersData	NpcBuffersData: Loaded 6 buffers data.
+2025.01.06 13:54:55,554	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Birth of Draco has passed... Ignored 
+2025.01.06 13:54:55,568	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Eve the Fortune Teller has passed... Ignored 
+2025.01.06 13:54:55,575	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Freya Celebration has passed... Ignored 
+2025.01.06 13:54:55,587	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Gift of Vitality has passed... Ignored 
+2025.01.06 13:54:55,604	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Halloween has passed... Ignored 
+2025.01.06 13:54:55,613	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Heavy Medal has passed... Ignored 
+2025.01.06 13:54:55,622	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Hungry Horse has passed... Ignored 
+2025.01.06 13:54:55,633	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Hunt for Santa has passed... Ignored 
+2025.01.06 13:54:55,639	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Letter Collector has passed... Ignored 
+2025.01.06 13:54:55,645	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Lovers Jubilee has passed... Ignored 
+2025.01.06 13:54:55,651	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Love Your Gatekeeper has passed... Ignored 
+2025.01.06 13:54:55,658	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Master of Enchanting has passed... Ignored 
+2025.01.06 13:54:55,667	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Rudolphs Blessing has passed... Ignored 
+2025.01.06 13:54:55,680	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event Saving Santa has passed... Ignored 
+2025.01.06 13:54:55,684	INFO	1	org.l2jmobius.gameserver.model.quest.Quest	Event The Power Of Love has passed... Ignored 
+2025.01.06 13:54:55,766	WARNING	67	org.l2jmobius.gameserver.Shutdown	GM shutdown countdown is over. shutting down NOW!
+2025.01.06 13:54:55,776	INFO	67	org.l2jmobius.gameserver.Shutdown	All players disconnected and saved(0ms).
+2025.01.06 13:54:55,780	INFO	67	org.l2jmobius.gameserver.Shutdown	Game Time Task Manager: Thread interruped(14ms).
+2025.01.06 13:54:55,780	INFO	67	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Shutting down.
+2025.01.06 13:54:55,781	INFO	67	org.l2jmobius.gameserver.Shutdown	Thread Pool Manager: Manager has been shut down(1ms).
+2025.01.06 13:54:55,787	INFO	67	org.l2jmobius.gameserver.Shutdown	Login Server Thread: Thread interruped(6ms).
+2025.01.06 13:54:55,787	INFO	67	org.l2jmobius.gameserver.Shutdown	GM shutdown received. Shutting down NOW!
+2025.01.06 13:54:56,763	INFO	1	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: Initializing spawns...
+2025.01.06 13:54:57,043	INFO	67	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Loaded 223 instances.
+2025.01.06 13:54:57,043	INFO	67	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Scheduled 0 instances.
+2025.01.06 13:54:57,232	INFO	67	org.l2jmobius.gameserver.Shutdown	RaidBossSpawnManager: All raidboss info saved(1445ms).
+2025.01.06 13:54:57,247	INFO	67	org.l2jmobius.gameserver.Shutdown	GrandBossManager: All Grand Boss info saved(15ms).
+2025.01.06 13:54:57,247	INFO	67	org.l2jmobius.gameserver.Shutdown	Item Auction Manager: All tasks stopped(0ms).
+2025.01.06 13:54:57,253	INFO	67	org.l2jmobius.gameserver.Shutdown	Olympiad System: Data saved(5ms).
+2025.01.06 13:54:57,254	INFO	67	org.l2jmobius.gameserver.Shutdown	Hero System: Data saved(2ms).
+2025.01.06 13:54:57,254	INFO	67	org.l2jmobius.gameserver.Shutdown	Clan System: Data saved(0ms).
+2025.01.06 13:54:57,257	INFO	67	org.l2jmobius.gameserver.Shutdown	Cursed Weapons Manager: Data saved(3ms).
+2025.01.06 13:54:57,280	INFO	67	org.l2jmobius.gameserver.instancemanager.CastleManorManager	CastleManorManager: Loaded 258 seeds.
+2025.01.06 13:54:57,298	INFO	67	org.l2jmobius.gameserver.instancemanager.CastleManorManager	CastleManorManager: Manor data loaded.
+2025.01.06 13:54:57,301	INFO	67	org.l2jmobius.gameserver.Shutdown	Castle Manor Manager: Data saved(44ms).
+2025.01.06 13:54:57,303	INFO	67	org.l2jmobius.gameserver.Shutdown	Quest Manager: Data saved(2ms).
+2025.01.06 13:54:57,357	INFO	67	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 11 variables.
+2025.01.06 13:54:57,358	INFO	67	org.l2jmobius.gameserver.Shutdown	Global Variables Manager: Variables saved(55ms).
+2025.01.06 13:54:57,358	INFO	67	org.l2jmobius.gameserver.Shutdown	Bot Report Table: Successfully saved reports to database!
+2025.01.06 13:54:57,778	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26016 in the DB: 
+2025.01.06 13:54:57,786	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26081 in the DB: 
+2025.01.06 13:54:57,796	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25931 in the DB: 
+2025.01.06 13:54:57,806	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25119 in the DB: 
+2025.01.06 13:54:57,815	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25067 in the DB: 
+2025.01.06 13:54:57,930	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25420 in the DB: 
+2025.01.06 13:54:57,934	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25434 in the DB: 
+2025.01.06 13:54:57,947	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25099 in the DB: 
+2025.01.06 13:54:58,028	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26011 in the DB: 
+2025.01.06 13:54:58,033	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25260 in the DB: 
+2025.01.06 13:54:58,089	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25862 in the DB: 
+2025.01.06 13:54:58,092	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25112 in the DB: 
+2025.01.06 13:54:58,116	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25892 in the DB: 
+2025.01.06 13:54:58,126	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25362 in the DB: 
+2025.01.06 13:54:58,135	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25152 in the DB: 
+2025.01.06 13:54:58,217	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25192 in the DB: 
+2025.01.06 13:54:58,325	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26082 in the DB: 
+2025.01.06 13:54:58,335	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25946 in the DB: 
+2025.01.06 13:54:58,386	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26027 in the DB: 
+2025.01.06 13:54:58,397	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25969 in the DB: 
+2025.01.06 13:54:58,401	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25103 in the DB: 
+2025.01.06 13:54:58,409	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25972 in the DB: 
+2025.01.06 13:54:58,416	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25960 in the DB: 
+2025.01.06 13:54:58,425	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25319 in the DB: 
+2025.01.06 13:54:58,429	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25456 in the DB: 
+2025.01.06 13:54:58,479	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25241 in the DB: 
+2025.01.06 13:54:58,502	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25238 in the DB: 
+2025.01.06 13:54:58,536	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25979 in the DB: 
+2025.01.06 13:54:58,562	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26078 in the DB: 
+2025.01.06 13:54:58,576	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25887 in the DB: 
+2025.01.06 13:54:58,636	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25437 in the DB: 
+2025.01.06 13:54:58,667	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25950 in the DB: 
+2025.01.06 13:54:58,748	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25325 in the DB: 
+2025.01.06 13:54:58,762	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25143 in the DB: 
+2025.01.06 13:54:58,773	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25438 in the DB: 
+2025.01.06 13:54:58,795	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26023 in the DB: 
+2025.01.06 13:54:58,820	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25523 in the DB: 
+2025.01.06 13:54:58,843	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25051 in the DB: 
+2025.01.06 13:54:58,860	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25134 in the DB: 
+2025.01.06 13:54:58,886	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25725 in the DB: 
+2025.01.06 13:54:58,900	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25981 in the DB: 
+2025.01.06 13:54:58,917	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25674 in the DB: 
+2025.01.06 13:54:58,932	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25146 in the DB: 
+2025.01.06 13:54:58,944	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25125 in the DB: 
+2025.01.06 13:54:58,963	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #3473 in the DB: 
+2025.01.06 13:54:59,016	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25211 in the DB: 
+2025.01.06 13:54:59,042	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25971 in the DB: 
+2025.01.06 13:54:59,080	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25064 in the DB: 
+2025.01.06 13:54:59,105	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25088 in the DB: 
+2025.01.06 13:54:59,115	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25076 in the DB: 
+2025.01.06 13:54:59,156	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25775 in the DB: 
+2025.01.06 13:54:59,166	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25092 in the DB: 
+2025.01.06 13:54:59,174	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25159 in the DB: 
+2025.01.06 13:54:59,190	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25185 in the DB: 
+2025.01.06 13:54:59,199	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26004 in the DB: 
+2025.01.06 13:54:59,268	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25506 in the DB: 
+2025.01.06 13:54:59,305	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25980 in the DB: 
+2025.01.06 13:54:59,312	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25450 in the DB: 
+2025.01.06 13:54:59,315	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25010 in the DB: 
+2025.01.06 13:54:59,366	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25441 in the DB: 
+2025.01.06 13:54:59,374	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26077 in the DB: 
+2025.01.06 13:54:59,382	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25870 in the DB: 
+2025.01.06 13:54:59,389	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25373 in the DB: 
+2025.01.06 13:54:59,451	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25158 in the DB: 
+2025.01.06 13:54:59,467	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25392 in the DB: 
+2025.01.06 13:54:59,475	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25958 in the DB: 
+2025.01.06 13:54:59,488	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25886 in the DB: 
+2025.01.06 13:54:59,501	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26080 in the DB: 
+2025.01.06 13:54:59,507	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25272 in the DB: 
+2025.01.06 13:54:59,523	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25214 in the DB: 
+2025.01.06 13:54:59,530	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25169 in the DB: 
+2025.01.06 13:54:59,537	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25041 in the DB: 
+2025.01.06 13:54:59,546	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25252 in the DB: 
+2025.01.06 13:54:59,553	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26069 in the DB: 
+2025.01.06 13:54:59,564	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26024 in the DB: 
+2025.01.06 13:54:59,623	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25859 in the DB: 
+2025.01.06 13:54:59,625	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25991 in the DB: 
+2025.01.06 13:54:59,680	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25063 in the DB: 
+2025.01.06 13:54:59,726	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25993 in the DB: 
+2025.01.06 13:54:59,727	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25255 in the DB: 
+2025.01.06 13:54:59,733	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #29062 in the DB: 
+2025.01.06 13:54:59,736	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25970 in the DB: 
+2025.01.06 13:54:59,740	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #3477 in the DB: 
+2025.01.06 13:54:59,749	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26005 in the DB: 
+2025.01.06 13:54:59,751	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25233 in the DB: 
+2025.01.06 13:54:59,807	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25322 in the DB: 
+2025.01.06 13:54:59,816	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25208 in the DB: 
+2025.01.06 13:54:59,818	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25410 in the DB: 
+2025.01.06 13:54:59,822	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25391 in the DB: 
+2025.01.06 13:54:59,827	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25372 in the DB: 
+2025.01.06 13:54:59,840	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25431 in the DB: 
+2025.01.06 13:54:59,848	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25967 in the DB: 
+2025.01.06 13:54:59,850	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26025 in the DB: 
+2025.01.06 13:54:59,854	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26013 in the DB: 
+2025.01.06 13:54:59,862	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25309 in the DB: 
+2025.01.06 13:54:59,928	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25122 in the DB: 
+2025.01.06 13:54:59,935	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25026 in the DB: 
+2025.01.06 13:55:00,080	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25115 in the DB: 
+2025.01.06 13:55:00,140	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25677 in the DB: 
+2025.01.06 13:55:00,168	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25226 in the DB: 
+2025.01.06 13:55:00,176	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25019 in the DB: 
+2025.01.06 13:55:00,193	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25493 in the DB: 
+2025.01.06 13:55:00,201	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25098 in the DB: 
+2025.01.06 13:55:00,226	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26022 in the DB: 
+2025.01.06 13:55:00,231	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25163 in the DB: 
+2025.01.06 13:55:00,268	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25426 in the DB: 
+2025.01.06 13:55:00,275	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26047 in the DB: 
+2025.01.06 13:55:00,286	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25398 in the DB: 
+2025.01.06 13:55:00,290	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25423 in the DB: 
+2025.01.06 13:55:00,312	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25149 in the DB: 
+2025.01.06 13:55:00,321	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25875 in the DB: 
+2025.01.06 13:55:00,327	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25948 in the DB: 
+2025.01.06 13:55:00,347	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25170 in the DB: 
+2025.01.06 13:55:00,396	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25959 in the DB: 
+2025.01.06 13:55:00,403	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25050 in the DB: 
+2025.01.06 13:55:00,408	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25994 in the DB: 
+2025.01.06 13:55:00,420	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25188 in the DB: 
+2025.01.06 13:55:00,430	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26079 in the DB: 
+2025.01.06 13:55:00,457	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25463 in the DB: 
+2025.01.06 13:55:00,462	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25044 in the DB: 
+2025.01.06 13:55:00,468	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25127 in the DB: 
+2025.01.06 13:55:00,473	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26067 in the DB: 
+2025.01.06 13:55:00,504	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26000 in the DB: 
+2025.01.06 13:55:00,512	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25394 in the DB: 
+2025.01.06 13:55:00,514	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25418 in the DB: 
+2025.01.06 13:55:00,533	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25496 in the DB: 
+2025.01.06 13:55:00,538	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25082 in the DB: 
+2025.01.06 13:55:00,590	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25961 in the DB: 
+2025.01.06 13:55:00,610	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25429 in the DB: 
+2025.01.06 13:55:00,615	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25244 in the DB: 
+2025.01.06 13:55:00,685	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26045 in the DB: 
+2025.01.06 13:55:00,705	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25102 in the DB: 
+2025.01.06 13:55:00,713	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25369 in the DB: 
+2025.01.06 13:55:00,715	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25922 in the DB: 
+2025.01.06 13:55:00,724	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25957 in the DB: 
+2025.01.06 13:55:00,763	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26049 in the DB: 
+2025.01.06 13:55:00,764	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25698 in the DB: 
+2025.01.06 13:55:00,771	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25189 in the DB: 
+2025.01.06 13:55:00,774	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25366 in the DB: 
+2025.01.06 13:55:00,797	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25357 in the DB: 
+2025.01.06 13:55:00,898	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25871 in the DB: 
+2025.01.06 13:55:00,982	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25020 in the DB: 
+2025.01.06 13:55:00,991	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26001 in the DB: 
+2025.01.06 13:55:01,003	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25128 in the DB: 
+2025.01.06 13:55:01,036	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25375 in the DB: 
+2025.01.06 13:55:01,047	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25256 in the DB: 
+2025.01.06 13:55:01,073	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25166 in the DB: 
+2025.01.06 13:55:01,075	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25697 in the DB: 
+2025.01.06 13:55:01,117	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25273 in the DB: 
+2025.01.06 13:55:01,120	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25726 in the DB: 
+2025.01.06 13:55:01,123	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25023 in the DB: 
+2025.01.06 13:55:01,126	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26012 in the DB: 
+2025.01.06 13:55:01,131	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25956 in the DB: 
+2025.01.06 13:55:01,185	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25057 in the DB: 
+2025.01.06 13:55:01,187	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25007 in the DB: 
+2025.01.06 13:55:01,226	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #29095 in the DB: 
+2025.01.06 13:55:01,267	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26002 in the DB: 
+2025.01.06 13:55:01,277	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25155 in the DB: 
+2025.01.06 13:55:01,292	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26026 in the DB: 
+2025.01.06 13:55:01,296	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25004 in the DB: 
+2025.01.06 13:55:01,298	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25478 in the DB: 
+2025.01.06 13:55:01,334	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25079 in the DB: 
+2025.01.06 13:55:01,344	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26003 in the DB: 
+2025.01.06 13:55:01,399	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25932 in the DB: 
+2025.01.06 13:55:01,437	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25444 in the DB: 
+2025.01.06 13:55:01,471	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25269 in the DB: 
+2025.01.06 13:55:01,474	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25085 in the DB: 
+2025.01.06 13:55:01,481	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25352 in the DB: 
+2025.01.06 13:55:01,485	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25945 in the DB: 
+2025.01.06 13:55:01,554	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25504 in the DB: 
+2025.01.06 13:55:01,563	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26070 in the DB: 
+2025.01.06 13:55:01,564	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25106 in the DB: 
+2025.01.06 13:55:01,570	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25501 in the DB: 
+2025.01.06 13:55:01,592	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25360 in the DB: 
+2025.01.06 13:55:01,647	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25990 in the DB: 
+2025.01.06 13:55:01,649	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26014 in the DB: 
+2025.01.06 13:55:01,650	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25404 in the DB: 
+2025.01.06 13:55:01,654	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26015 in the DB: 
+2025.01.06 13:55:01,659	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25989 in the DB: 
+2025.01.06 13:55:01,661	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25447 in the DB: 
+2025.01.06 13:55:01,663	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25235 in the DB: 
+2025.01.06 13:55:01,665	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26044 in the DB: 
+2025.01.06 13:55:01,667	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25047 in the DB: 
+2025.01.06 13:55:01,733	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25032 in the DB: 
+2025.01.06 13:55:01,735	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25927 in the DB: 
+2025.01.06 13:55:01,740	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25131 in the DB: 
+2025.01.06 13:55:01,748	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25245 in the DB: 
+2025.01.06 13:55:01,756	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25937 in the DB: 
+2025.01.06 13:55:01,779	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25179 in the DB: 
+2025.01.06 13:55:01,796	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25395 in the DB: 
+2025.01.06 13:55:01,801	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26066 in the DB: 
+2025.01.06 13:55:01,806	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25947 in the DB: 
+2025.01.06 13:55:01,808	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26046 in the DB: 
+2025.01.06 13:55:01,813	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #3479 in the DB: 
+2025.01.06 13:55:01,816	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25696 in the DB: 
+2025.01.06 13:55:01,819	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25095 in the DB: 
+2025.01.06 13:55:01,851	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #26071 in the DB: 
+2025.01.06 13:55:01,874	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25230 in the DB: 
+2025.01.06 13:55:01,890	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25983 in the DB: 
+2025.01.06 13:55:01,895	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25060 in the DB: 
+2025.01.06 13:55:01,946	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25968 in the DB: 
+2025.01.06 13:55:01,963	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25460 in the DB: 
+2025.01.06 13:55:01,969	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #3481 in the DB: 
+2025.01.06 13:55:01,973	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25173 in the DB: 
+2025.01.06 13:55:01,975	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25089 in the DB: 
+2025.01.06 13:55:01,984	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25016 in the DB: 
+2025.01.06 13:55:01,986	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25293 in the DB: 
+2025.01.06 13:55:02,066	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25299 in the DB: 
+2025.01.06 13:55:02,081	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25354 in the DB: 
+2025.01.06 13:55:02,089	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25070 in the DB: 
+2025.01.06 13:55:02,091	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25415 in the DB: 
+2025.01.06 13:55:02,109	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25038 in the DB: 
+2025.01.06 13:55:02,227	WARNING	1	org.l2jmobius.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Could not store npc #25527 in the DB: 
+2025.01.06 13:55:02,228	INFO	1	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: All spawns has been initialized!
+2025.01.06 13:55:02,228	INFO	1	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Siege ]
+2025.01.06 13:55:02,255	INFO	1	org.l2jmobius.gameserver.data.xml.SiegeScheduleData	SiegeScheduleData: Loaded 9 siege schedulers.
+2025.01.06 13:55:02,256	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Gludio: Sun Jan 19 16:00:00 CET 2025
+2025.01.06 13:55:02,258	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Dion: Sun Jan 19 20:00:00 CET 2025
+2025.01.06 13:55:02,259	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Giran: Sun Jan 19 16:00:00 CET 2025
+2025.01.06 13:55:02,260	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Oren: Sun Jan 19 20:00:00 CET 2025
+2025.01.06 13:55:02,260	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Aden: Sun Jan 19 16:00:00 CET 2025
+2025.01.06 13:55:02,261	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Innadril: Sun Jan 19 20:00:00 CET 2025
+2025.01.06 13:55:02,263	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Goddard: Sun Jan 19 16:00:00 CET 2025
+2025.01.06 13:55:02,263	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Rune: Sun Jan 19 20:00:00 CET 2025
+2025.01.06 13:55:02,264	INFO	1	org.l2jmobius.gameserver.model.siege.Siege	Siege of Schuttgart: Sun Jan 19 16:00:00 CET 2025
+2025.01.06 13:55:02,358	INFO	1	org.l2jmobius.gameserver.instancemanager.FortManager	FortManager: Loaded 21 fortress.
+2025.01.06 13:55:02,364	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,364	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,379	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,380	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Shanty: Unable to obtain a database connection.
+2025.01.06 13:55:02,380	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,381	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,381	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,381	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,381	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,381	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Southern: Unable to obtain a database connection.
+2025.01.06 13:55:02,382	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,382	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,382	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,382	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,382	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,382	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Hive: Unable to obtain a database connection.
+2025.01.06 13:55:02,383	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,383	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,383	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,383	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,383	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,383	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Valley: Unable to obtain a database connection.
+2025.01.06 13:55:02,383	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,383	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,383	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,383	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,383	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,384	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Ivory: Unable to obtain a database connection.
+2025.01.06 13:55:02,384	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,384	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,384	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,384	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,384	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,385	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Narsell: Unable to obtain a database connection.
+2025.01.06 13:55:02,385	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,385	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,385	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,385	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,385	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,386	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Bayou: Unable to obtain a database connection.
+2025.01.06 13:55:02,386	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,386	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,386	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,386	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,386	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,387	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort White Sands: Unable to obtain a database connection.
+2025.01.06 13:55:02,387	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,387	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,387	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,388	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,388	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,388	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Borderland: Unable to obtain a database connection.
+2025.01.06 13:55:02,388	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,388	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,389	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,389	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,389	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,389	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Swamp: Unable to obtain a database connection.
+2025.01.06 13:55:02,389	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,389	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,389	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,390	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,390	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,390	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Archaic: Unable to obtain a database connection.
+2025.01.06 13:55:02,390	INFO	67	org.l2jmobius.commons.database.DatabaseFactory	Database: HikariCP pool closed successfully.
+2025.01.06 13:55:02,390	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,390	INFO	67	org.l2jmobius.gameserver.Shutdown	Database Factory: Database connection has been shut down(30ms).
+2025.01.06 13:55:02,390	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,390	INFO	67	org.l2jmobius.gameserver.Shutdown	The server has been successfully shut down in 6seconds.
+2025.01.06 13:55:02,390	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,391	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,391	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,391	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Floran: Unable to obtain a database connection.
+2025.01.06 13:55:02,391	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,391	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,391	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,392	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,392	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,392	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Cloud Mountain: Unable to obtain a database connection.
+2025.01.06 13:55:02,392	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,392	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,392	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,393	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,393	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,393	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Tanor: Unable to obtain a database connection.
+2025.01.06 13:55:02,393	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,393	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,394	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,394	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,394	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,394	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Dragonspine: Unable to obtain a database connection.
+2025.01.06 13:55:02,394	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,395	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,395	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,395	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,395	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,395	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Antharas: Unable to obtain a database connection.
+2025.01.06 13:55:02,395	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,396	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,396	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,396	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,396	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,396	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Western: Unable to obtain a database connection.
+2025.01.06 13:55:02,396	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,397	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,397	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,397	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,397	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,397	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Hunters: Unable to obtain a database connection.
+2025.01.06 13:55:02,397	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,397	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,398	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,398	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,398	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,398	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Aaru: Unable to obtain a database connection.
+2025.01.06 13:55:02,398	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,398	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,399	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,399	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,399	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,399	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Demon: Unable to obtain a database connection.
+2025.01.06 13:55:02,399	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,399	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: saveSiegeDate(): Unable to obtain a database connection.
+2025.01.06 13:55:02,399	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,400	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Exception: clearSiegeClan(): Unable to obtain a database connection.
+2025.01.06 13:55:02,400	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,400	WARNING	1	org.l2jmobius.gameserver.model.siege.FortSiege	FortSiege: Error loading siege guard for fort Monastic: Unable to obtain a database connection.
+2025.01.06 13:55:02,469	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,469	WARNING	1	org.l2jmobius.gameserver.instancemanager.SiegeGuardManager	Unable to obtain a database connection.
+2025.01.06 13:55:02,470	INFO	1	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 473 quests.
+2025.01.06 13:55:02,470	INFO	1	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 382 scripts.
+2025.01.06 13:55:02,480	INFO	1	org.l2jmobius.gameserver.instancemanager.games.KrateisCubeManager	KrateisCubeManager: Loaded 3 arena templates.
+2025.01.06 13:55:02,489	INFO	1	org.l2jmobius.gameserver.instancemanager.games.UndergroundColiseumManager	UndergroundColiseumManager: Loaded 5 coliseum arenas.
+2025.01.06 13:55:02,490	INFO	1	org.l2jmobius.gameserver.instancemanager.games.UndergroundColiseumManager	UndergroundColiseumManager: Starts at 10/01/2025 21:00:00
+2025.01.06 13:55:02,490	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
+2025.01.06 13:55:02,491	WARNING	1	org.l2jmobius.gameserver.instancemanager.games.UndergroundColiseumManager	UndergroundColiseumManager: Error while initializing UndergroundColiseumManager: Unable to obtain a database connection.
+2025.01.06 13:55:02,493	SEVERE	1	org.l2jmobius.commons.database.DatabaseFactory	Database: Could not get a connection.
